@@ -14,8 +14,8 @@
                 <a class="navbar-brand" href="#">Laravel App</a>
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
-                        <li class="nav-item"><a class="nav-link" href="{{ route('home') }}">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="{{ route('users.index') }}">Users</a></li>
+                        <li class="nav-item"><a class="nav-link" href="{{ route('dashboard') }}">Dashboard</a></li>
+                        <li class="nav-item"><a class="nav  -link" href="{{ route('users.index') }}">Users</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('tasks.index') }}">Tasks</a></li>
                         <li class="nav-item"><a class="nav-link" href="{{ route('projects.index') }}">Projects</a></li>
                     </ul>
