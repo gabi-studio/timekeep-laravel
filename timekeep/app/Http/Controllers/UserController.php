@@ -80,7 +80,7 @@ class UserController extends Controller
     public function destroy(User $user)
     {
         // Delete the user from the database
-        $user->delete();
+        Student::destroy($user->id);
 
         // Redirect to the user index page after deleting the user
         return redirect()->route('users.index');
